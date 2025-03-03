@@ -1,52 +1,44 @@
-# Prerequisites
-*.d
+# Visual Studio- en Rider-specifieke bestanden
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.idea/
+*.sln.iml
+*.ReSharper*
+*
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# VS Code-specifieke bestanden
+.vscode/
+*.code-workspace
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Build output
+bin/
+obj/
+out/
 
-# Precompiled Headers
-*.gch
-*.pch
+# NuGet-packages
+*.nupkg
+packages/
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# macOS-specifieke bestanden
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Windows-specifieke bestanden
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Logs en caches
+*.log
+*.cache
+*.temp
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Overige
+*.bak
+*.swp
+*.swo
+*.pid
